@@ -15,7 +15,7 @@ html.vanilla, .vanilla #frHaut, .vanilla #frGauche, .vanilla body.body-identific
     filter: none !important;
 }
 
-#themeToggle img {
+.parent-menu-gauche img, .section-droite img, #themeToggle img {
     filter: none !important;
 }
 
