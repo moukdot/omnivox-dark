@@ -1,17 +1,18 @@
 html {
     filter: invert(1) hue-rotate(180deg);
+	background: white;
 }
 
 .card-panel-header {
     color: black !important
 }
 
-#frHaut, #frGauche, body.body-identification-intraflex .carousel-identification-sso .carousel-item-identification-sso, img {
+#frHaut, #frGauche, body.body-identification-intraflex .carousel-identification-sso .carousel-item-identification-sso, #iframePopup, pdf-viewer, img {
     transition: filter 0s, opacity 2000ms linear !important;
     filter: invert(1) hue-rotate(180deg) !important;
 }
 
-html.vanilla, .vanilla #frHaut, .vanilla #frGauche, .vanilla body.body-identification-intraflex .carousel-identification-sso .carousel-item-identification-sso, .vanilla img {
+html.vanilla, .vanilla #frHaut, .vanilla #frGauche, .vanilla #iframePopup, .vanilla body.body-identification-intraflex .carousel-identification-sso .carousel-item-identification-sso, .vanilla img {
     filter: none !important;
 }
 
